@@ -1,0 +1,55 @@
+body{
+    background-color:aliceblue;
+  }
+  #Detalhes {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+  }
+  
+  #Detalhes h1 {
+      font-family: "bold";
+      padding: 100px;
+      color: white;
+  }
+  #Detalhes p {
+    color: white;
+    font-family: "regular";
+  }
+  #menu {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: #0EB1D2
+  }
+  
+  #menu h1 {
+    font-family: "bold";
+    color: black;
+    padding-right: 600px;
+    padding-left: 50px;
+  }
+  
+  #menu a {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    background-color: #8AB9B5;
+    color: white;
+    font-family: "bold";
+    font-size: 120%;
+    border-radius: 10px;
+  }
+  
+  #menu a:hover {
+    border-bottom: 4px solid white;
+  }
+  
+  #menu img {
+    border-radius: 50px;
+    width: 5%;
+    margin: auto;
+  }
+  

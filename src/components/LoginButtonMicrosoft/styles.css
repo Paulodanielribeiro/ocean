@@ -1,0 +1,32 @@
+#login-button3 {
+    display: flex;
+    width: 300px;
+    margin:  50px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: palegreen;
+    padding: 10px;
+    box-shadow: 3px 3px 3px darkgreen;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+}
+#login-button3:hover {
+    border-bottom: 3px solid green;
+  }
+  
+
+#login-button3 * {
+    vertical-align: middle;
+}
+
+#login-button3 img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+#login-button3 span {
+    font-size: 115%;
+    font-family: 'bold';
+}

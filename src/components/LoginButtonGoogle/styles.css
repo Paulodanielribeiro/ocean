@@ -1,0 +1,32 @@
+#login-button {
+    display: flex;
+    width: 300px;
+    margin:  50px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: palegreen;
+    padding: 10px;
+    box-shadow: 3px 3px 3px darkgreen;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+}
+#login-button:hover {
+    border-bottom: 3px solid greenyellow;
+  }
+  
+
+#login-button * {
+    vertical-align: middle;
+}
+
+#login-button img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+#login-button span {
+    font-size: 120%;
+    font-family: 'bold';
+}
